@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Home_{
+    width: 100%;
+}
+.divs{
+    width: 1000px;
+    height: 60px;
+    line-height: 60px;
+ 
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0px 130px;
+    box-sizing: border-box;
+    position: relative;
+}
+.divs a .jiguo{
+    width: 100px;
+    height: 30px;
+    float: left;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+.divs>ul{
+    list-style: none;
+    
+}
+.divs>ul>li{
+    float: left;
+    margin-right: 40px;
+    
+}
+.divs>ul>li>a{
+
+    text-decoration: none;
+}
+.divs>.imgs{
+ margin-left: 70px;
+  margin-top: 18px;
+    
+}
+.active{
+    color: red;
+}
+.divs a input{
+    float: right;
+    border: 1px solid red;
+    color: red;
+    padding: 3px 7px;
+    margin-left: 20px;
+    background: #fff;
+    margin-top: 18px;
+    border-radius: 5px;
+    outline: none;
+    
+}
