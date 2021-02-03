@@ -1,0 +1,156 @@
+ul,
+li {
+  list-style: none;
+}
+li > img:hover {
+  transform: scale(1.1);
+}
+.lead {
+  width: 100%;
+  margin-top: 50px;
+  background-color: #fff;
+}
+.lead p {
+  font-size: 40px;
+  text-align: center;
+}
+.lead .list {
+  width: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 50px;
+}
+.lead .bottom {
+  border-bottom: red solid 4px;
+}
+.lead .new {
+  float: left;
+  width: 140px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.lead .hot {
+  float: left;
+  width: 140px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+/* 主体样式 */
+.main {
+  background-color: #F7F7F7;
+}
+#new {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+ 
+}
+
+
+#new>li{
+    float: left;
+    width: 210px;
+    height: 230px;
+    margin-right: 38px;
+    border: 1px solid;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+#new>li>img{
+    width: 100%;
+    height: 140px;
+}
+#new>li>p>:nth-child(1){
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+}
+#new>li>p>:nth-child(2){
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#hot {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+ 
+}
+
+#hot>li{
+    float: left;
+    width: 210px;
+    height: 230px;
+    margin-right: 38px;
+    border: 1px solid;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+#hot>li>img{
+    width: 100%;
+    height: 140px;
+}
+#hot>li>p>:nth-child(1){
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+}
+#hot>li>p>:nth-child(2){
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.new_more {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+  
+}
+.new_more>li{
+    float: left;
+    width: 210px;
+    height: 230px;
+    margin-right: 38px;
+    border: 1px solid;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+.new_more>li>img{
+    width: 100%;
+    height: 140px;
+}
+.new_more>li>p>:nth-child(1){
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+}
+.new_more>li>p>:nth-child(2){
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+/* 点击返回顶部 */
+.hding{
+    width: 40px;
+    height: 35px;
+    border: 1px solid #ccc;
+    background: #ccc;
+    position: fixed;
+    top: 600px;
+    right: 80px;
+    text-align: center;
+    line-height: 35px;
+    display: none;
+  }
+  .hding img{
+    width: 30px;
+    height: 20px;
+    margin-top: 7px;
+  }
