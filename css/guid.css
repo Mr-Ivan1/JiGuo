@@ -154,3 +154,9 @@ li > img:hover {
     height: 20px;
     margin-top: 7px;
   }
+
+
+  .footer_return>img{
+    margin-top: 13px;
+    margin-left: 3px;
+}

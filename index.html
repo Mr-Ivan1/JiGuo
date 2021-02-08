@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/public_head.css">
 
 </head>
 
 <body>
+    <div class="login_zz" hidden></div>
     <!-- 头部导航 -->
     <div class="Home_">
         <div class="divs">
@@ -25,7 +27,34 @@
 
 
             <a href="./regist.html"><input type="submit" value="注册"></a>
-            <a href="#"><input type="submit" value="登录"></a>
+            <a href="#" class="head_login"><input type="submit" value="登录"></a>
+
+            <div class="login" hidden>
+                <div class="login_left">
+                    <h2>
+                        极果账号登录
+                    </h2>
+                    <input id="phone" type="text" placeholder="手机号码" autocomplete="off">
+                    <input id="password" type="password" placeholder="密码">
+                    <div>
+                        <input type="checkbox" id="checkbox"><span>下次自动登录</span>
+                        <button id="login">登录</button>
+                    </div>
+                    <div class="rember">
+                        <a href="./regist.html">注册新账号</a>
+                        <a href="#">忘记密码？</a>
+                    </div>
+                </div>
+                <div class="login_right">
+                    <img id="closd" src="./img/home.img/clos.png" alt="">
+                    <h3>社交网络账号登录</h3>
+                    <img class="weixin" src="./img/home.img/weixin_code.png" alt="">
+                    <div class="fenxiang">
+                        <a href="#" class="weibo">微博</a>
+                        <a href="#" class="qq">QQ</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- 右侧动画 -->
@@ -630,7 +659,7 @@
     <!-- 中间部分 -->
 
     <!-- 点击返回顶部 -->
-    <div class="hding"><img src="./img/home.img/back.png" alt=""></div>
+    <!-- <div class="hding"><img src="./img/home.img/back.png" alt=""></div> -->
     
     <!-- 网页底部 -->
     <footer class="footer_total">
@@ -692,7 +721,7 @@
             &copy:2016 极果版权所有
         </div>
         <div class="footer_return">
-
+            <img src="./img/home.img/back.png" alt="">
         </div>
     </footer>
 
@@ -790,5 +819,5 @@
 
 
 </body>
-
+    <script src="./js/public_head.js"></script>
 </html>

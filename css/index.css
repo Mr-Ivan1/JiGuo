@@ -1282,3 +1282,8 @@ dd.footer_jian {
   background: url('../image/icon/back.png') no-repeat center center;
   background-color: #e8e8e8;
 }
+
+.footer_return>img{
+  margin-top: 13px;
+  margin-left: 3px;
+}

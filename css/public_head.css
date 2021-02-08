@@ -27,6 +27,7 @@ a { text-decoration: none;}
     height: 75px;
     margin: 0 auto;
 }
+
 .head_img {
     float: left;
 }
@@ -54,17 +55,15 @@ a { text-decoration: none;}
 .head_main .head_register,.head_login {
     float: right;
     width: 52px;
-    height: 32px; 
+    height: 30px; 
     font-size: 15px;
     background-color: #fff;
     color: #fa553f;
-    border: 2px solid #fa553f;
     border-radius: 5px;
     box-sizing: border-box;
     outline: none;
     cursor: pointer;
-    /* display: inline-block; */
-    margin-top: -5px;
+    margin-top: -4px;
 }
 #clicked {
     color: #ff664d;
@@ -87,7 +86,7 @@ a { text-decoration: none;}
 .login {
     border: 1px solid #cccccc;
     width: 800px;
-    height: 400px;
+    height: 450px;
     /* margin: 0 auto; */
     border-radius: 8px;
     background-color: #fff;

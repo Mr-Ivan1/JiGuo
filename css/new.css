@@ -327,3 +327,7 @@ li p:hover {
   position: relative;
   left: 12px;
 }
+.footer_return>img{
+  margin-top: 13px;
+  margin-left: 3px;
+}

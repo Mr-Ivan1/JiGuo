@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-14 14:04:32
- * @LastEditTime: 2020-09-14 14:25:01
+ * @LastEditTime: 2021-02-03 17:29:47
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \VS_Coded:\AAA\VS_project\shop\js\public_head.js
@@ -24,6 +24,8 @@ $(window).scroll(function(){
     } else {
         $('.footer_return').hide()
     };
+ 
+
 
 });
 
@@ -34,6 +36,7 @@ $('.footer_return').on('click',function(){
     var v = parseInt(scoll_y/(Math.random()+4));
     // 
     $(document).scrollTop(scoll_y - v);
+    
     if(scoll_y <= 5){clearInterval(timer_4);}
     },100);
 });
