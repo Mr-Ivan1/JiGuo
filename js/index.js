@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-01-27 21:58:13
- * @LastEditTime: 2021-02-01 20:28:23
+ * @LastEditTime: 2021-02-19 08:53:31
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \gshop-server_finale:\有关JS、vue的练习\极果\JiGuo\js\index.js
@@ -57,33 +57,33 @@ var ks=document.documentElement.clientHeight
 var isTop=true
 var timer_=null;
 
-window.onscroll = function() {　
-     var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-    if(scrollTop>ks){
-        hding.style.display='block'
-    }else if(scrollTop<ks){
-        hding.style.display='none'
-    }
+// window.onscroll = function() {　
+//      var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+//     if(scrollTop>ks){
+//         hding.style.display='block'
+//     }else if(scrollTop<ks){
+//         hding.style.display='none'
+//     }
    
-    if(!isTop){
-        clearInterval(timer_)
-    }
-    isTop=false
+//     if(!isTop){
+//         clearInterval(timer_)
+//     }
+//     isTop=false
     
-}
-hding.onclick=function(){
-      timer_=setInterval(function(){
-        var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-        //用于设置速度差，产生缓动的效果
-        var speed=Math.floor(-scrollTop/6)
-        document.documentElement.scrollTop=document.body.scrollTop=scrollTop+speed
-        isTop=true
-        if(scrollTop==0){
-            clearInterval(timer_)
-        }
-    },30)
+// }
+// hding.onclick=function(){
+//       timer_=setInterval(function(){
+//         var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+//         //用于设置速度差，产生缓动的效果
+//         var speed=Math.floor(-scrollTop/6)
+//         document.documentElement.scrollTop=document.body.scrollTop=scrollTop+speed
+//         isTop=true
+//         if(scrollTop==0){
+//             clearInterval(timer_)
+//         }
+//     },30)
    
-}
+// }
 
 /* 懒加载 */
 

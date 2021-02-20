@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-14 14:04:32
- * @LastEditTime: 2021-02-03 17:29:47
+ * @LastEditTime: 2021-02-20 11:26:55
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \VS_Coded:\AAA\VS_project\shop\js\public_head.js
@@ -78,15 +78,15 @@ $('#login').on('click',function(){
         alert('手机号码或者密码格式不正确！')
     } else{
         $.ajax({
-            url:adress+'/users',
+            url:http+'/users/login',
             type:'post',
             data:{
-                type:'login',
-                phone:phone,
-                pass:pass
+                
+                username:phone,
+                password:pass
             },
             success:function (json) {
-                json=JSON.parse(json);
+                // json=JSON.parse(json);
                 console.log(json);
                 alert(json.msg);
                 if($('#checkbox').is(':checked')){
